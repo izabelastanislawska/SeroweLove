@@ -1,0 +1,175 @@
+{
+    "cheese": [
+        {
+            "id": 1,
+            "name" : "Ser Koryciński - mały",
+            "taste": "Suszone pomidory",
+            "image": "korycinski.jpg",
+            "imagealt": "Ser koryciński",
+            "description": "Serek delikatnie słony, idealnie nada się do deski serowej, do piwa bądź na kanapkę. Idealny na sylwestrowa przekąskę. Dostępny w 4 wariantach z przyprawami: suszone pomidory/czosnek niedźwiedzi/ostra przyprawa z chilli i czosnkiem/przyprawa włoska (bazylia, czosnek, pomidory). Mały (ok 180g) - 10 zł, duży (ok 250g) - 15 zł.",
+            "weight": "180g",
+            "price": "10zł"
+        },
+        {
+            "id": 2,
+            "name" : "Ser Koryciński - duży",
+            "taste": "Suszone pomidory",
+            "image": "korycinski2.jpg",
+            "imagealt": "Ser koryciński",
+            "description": "Serek delikatnie słony, idealnie nada się do deski serowej, do piwa bądź na kanapkę. Idealny na sylwestrowa przekąskę. Dostępny w 4 wariantach z przyprawami: suszone pomidory/czosnek niedźwiedzi/ostra przyprawa z chilli i czosnkiem/przyprawa włoska (bazylia, czosnek, pomidory). Mały (ok 180g) - 10 zł, duży (ok 250g) - 15 zł.",
+            "weight": "250g",
+            "price": "15zł"
+        },
+        {
+            "id": 3,
+            "name" : "Ser Koryciński - mały",
+            "taste": "Czosnek niedźwiedzi",
+            "image": "korycinski.jpg",
+            "imagealt": "Ser koryciński",
+            "description": "Serek delikatnie słony, idealnie nada się do deski serowej, do piwa bądź na kanapkę. Idealny na sylwestrowa przekąskę. Dostępny w 4 wariantach z przyprawami: suszone pomidory/czosnek niedźwiedzi/ostra przyprawa z chilli i czosnkiem/przyprawa włoska (bazylia, czosnek, pomidory). Mały (ok 180g) - 10 zł, duży (ok 250g) - 15 zł.",
+            "weight": "180g",
+            "price": "10zł"
+        },
+        {
+            "id": 4,
+            "name" : "Ser Koryciński - duży",
+            "taste": "Czosnek niedźwiedzi",
+            "image": "korycinski2.jpg",
+            "imagealt": "Ser koryciński",
+            "description": "Serek delikatnie słony, idealnie nada się do deski serowej, do piwa bądź na kanapkę. Idealny na sylwestrowa przekąskę. Dostępny w 4 wariantach z przyprawami: suszone pomidory/czosnek niedźwiedzi/ostra przyprawa z chilli i czosnkiem/przyprawa włoska (bazylia, czosnek, pomidory). Mały (ok 180g) - 10 zł, duży (ok 250g) - 15 zł.",
+            "weight": "250g",
+            "price": "15zł"
+        },
+        {
+            "id": 5,
+            "name" : "Ser Koryciński - mały",
+            "taste": "Ostra przyprawa z chilli i czosnkiem",
+            "image": "korycinski.jpg",
+            "imagealt": "Ser koryciński",
+            "description": "Serek delikatnie słony, idealnie nada się do deski serowej, do piwa bądź na kanapkę. Idealny na sylwestrowa przekąskę. Dostępny w 4 wariantach z przyprawami: suszone pomidory/czosnek niedźwiedzi/ostra przyprawa z chilli i czosnkiem/przyprawa włoska (bazylia, czosnek, pomidory). Mały (ok 180g) - 10 zł, duży (ok 250g) - 15 zł.",
+            "weight": "180g",
+            "price": "10zł"
+        },
+        {
+            "id": 6,
+            "name" : "Ser Koryciński - duży",
+            "taste": "Ostra przyprawa z chilli i czosnkiem",
+            "image": "korycinski2.jpg",
+            "imagealt": "Ser koryciński",
+            "description": "Serek delikatnie słony, idealnie nada się do deski serowej, do piwa bądź na kanapkę. Idealny na sylwestrowa przekąskę. Dostępny w 4 wariantach z przyprawami: suszone pomidory/czosnek niedźwiedzi/ostra przyprawa z chilli i czosnkiem/przyprawa włoska (bazylia, czosnek, pomidory). Mały (ok 180g) - 10 zł, duży (ok 250g) - 15 zł.",
+            "weight": "250g",
+            "price": "15zł"
+        },
+        {
+            "id": 7,
+            "name" : "Ser Koryciński - mały",
+            "taste": "Przyprawa włoska (bazylia, czosnek, pomidory)",
+            "image": "korycinski.jpg",
+            "imagealt": "Ser koryciński",
+            "description": "Serek delikatnie słony, idealnie nada się do deski serowej, do piwa bądź na kanapkę. Idealny na sylwestrowa przekąskę. Dostępny w 4 wariantach z przyprawami: suszone pomidory/czosnek niedźwiedzi/ostra przyprawa z chilli i czosnkiem/przyprawa włoska (bazylia, czosnek, pomidory). Mały (ok 180g) - 10 zł, duży (ok 250g) - 15 zł.",
+            "weight": "180g",
+            "price": "10zł"
+        },
+        {
+            "id": 8,
+            "name" : "Ser Koryciński - duży",
+            "taste": "Przyprawa włoska (bazylia, czosnek, pomidory)",
+            "image": "korycinski2.jpg",
+            "imagealt": "Ser koryciński",
+            "description": "Serek delikatnie słony, idealnie nada się do deski serowej, do piwa bądź na kanapkę. Idealny na sylwestrowa przekąskę. Dostępny w 4 wariantach z przyprawami: suszone pomidory/czosnek niedźwiedzi/ostra przyprawa z chilli i czosnkiem/przyprawa włoska (bazylia, czosnek, pomidory). Mały (ok 180g) - 10 zł, duży (ok 250g) - 15 zł.",
+            "weight": "250g",
+            "price": "15zł"
+        },
+        {
+            "id": 9,
+            "name" : "Ser Hallumi",
+            "taste": "-",
+            "image": "hallumi.jpg",
+            "imagealt": "Ser hallumi",
+            "description": "Słony serek, skrzypiący przy jedzeniu, idealny do sałatek jak i do jedzenia solo. Po podgrzaniu na patelni idealnie ciągnący. Pakowany po około 200/250g - 15zł.",
+            "weight": "200g-250g",
+            "price": "15zł"
+
+        },
+        {
+            "id": 10,
+            "name" : "Ser Feta",
+            "taste": "Suszone pomidory",
+            "image": "feta.jpg",
+            "imagealt": "Ser feta",
+            "description": "Ser Feta w kawałku z przyprawami. Dostępny w 4 wariantach z przyprawami: suszone pomidory/przyprawa włoska (bazylią, czosnek, pomidory)/ostra przyprawa z chilli i czosnkiem/czosnek niedźwiedzi. Kawałek (ok. 120g) - 10zł.",
+            "weight": "120g",
+            "price": "10zł"  
+        },
+        {
+            "id": 11,
+            "name" : "Ser Feta",
+            "taste": "Przyprawa włoska (bazylią, czosnek, pomidory)",
+            "image": "feta.jpg",
+            "imagealt": "Ser feta",
+            "description": "Ser Feta w kawałku z przyprawami. Dostępny w 4 wariantach z przyprawami: suszone pomidory/przyprawa włoska (bazylią, czosnek, pomidory)/ostra przyprawa z chilli i czosnkiem/czosnek niedźwiedzi. Kawałek (ok. 120g) - 10zł.",
+            "weight": "120g",
+            "price": "10zł"  
+        },
+        {
+            "id": 12,
+            "name" : "Ser Feta",
+            "taste": "Ostra przyprawa z chilli i czosnkiem",
+            "image": "feta.jpg",
+            "imagealt": "Ser feta",
+            "description": "Ser Feta w kawałku z przyprawami. Dostępny w 4 wariantach z przyprawami: suszone pomidory/przyprawa włoska (bazylią, czosnek, pomidory)/ostra przyprawa z chilli i czosnkiem/czosnek niedźwiedzi. Kawałek (ok. 120g) - 10zł.",
+            "weight": "120g",
+            "price": "10zł"  
+        },
+        {
+            "id": 13,
+            "name" : "Ser Feta",
+            "taste": "Czosnek niedźwiedzi",
+            "image": "feta.jpg",
+            "imagealt": "Ser feta",
+            "description": "Ser Feta w kawałku z przyprawami. Dostępny w 4 wariantach z przyprawami: suszone pomidory/przyprawa włoska (bazylią, czosnek, pomidory)/ostra przyprawa z chilli i czosnkiem/czosnek niedźwiedzi. Kawałek (ok. 120g) - 10zł.",
+            "weight": "120g",
+            "price": "10zł"  
+        },
+        {
+            "id": 14,
+            "name" : "Ser Feta w oleju",
+            "taste": "Suszone pomidory",
+            "image": "feta-w-oleju.jpg",
+            "imagealt": "Ser feta w oleju",
+            "description": "Ser Feta w oleju. Dostępny w 4 wariantach z przyprawami: suszone pomidory/włoska /ostra /czosnek niedźwiedzi. Porcja (ok. 120g) - 15zł.",
+            "weight": "120g",
+            "price": "15zł"  
+        },
+        {
+            "id": 15,
+            "name" : "Ser Feta w oleju",
+            "taste": "Przyprawa włoska (bazylią, czosnek, pomidory)",
+            "image": "feta-w-oleju.jpg",
+            "imagealt": "Ser feta w oleju",
+            "description": "Ser Feta w oleju. Dostępny w 4 wariantach z przyprawami: suszone pomidory/włoska /ostra /czosnek niedźwiedzi. Porcja (ok. 120g) - 15zł.",
+            "weight": "120g",
+            "price": "15zł"  
+        },
+        {
+            "id": 16,
+            "name" : "Ser Feta w oleju",
+            "taste": "Ostra przyprawa z chilli i czosnkiem",
+            "image": "feta-w-oleju.jpg",
+            "imagealt": "Ser feta w oleju",
+            "description": "Ser Feta w oleju. Dostępny w 4 wariantach z przyprawami: suszone pomidory/włoska /ostra /czosnek niedźwiedzi. Porcja (ok. 120g) - 15zł.",
+            "weight": "120g",
+            "price": "15zł"  
+        },
+        {
+            "id": 17,
+            "name" : "Ser Feta w oleju",
+            "taste": "Czosnek niedźwiedzi",
+            "image": "feta-w-oleju.jpg",
+            "imagealt": "Ser feta w oleju",
+            "description": "Ser Feta w oleju. Dostępny w 4 wariantach z przyprawami: suszone pomidory/włoska /ostra /czosnek niedźwiedzi. Porcja (ok. 120g) - 15zł.",
+            "weight": "120g",
+            "price": "15zł"  
+        }
+    ]
+}

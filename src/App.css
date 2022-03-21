@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  color: #FF8C00;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #EE7B00;
+}
+
+.navigation {
+  font-size: 1.5rem;
+}
+
+.hero {
+  background-image: url('./assets/feta-w-oleju.jpg');
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.author-picture {
+  max-width: 100%;
+  max-height: 500px;
+}
+
+.cheese-card {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cheese-img {
+  object-fit: cover;
+  height: 500px;
+}
+
+.about-me-text {
+  text-align:justify;
+}
