@@ -24,6 +24,10 @@ const Contact = () => {
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
             setShow(true);
+            setToSend({
+                from_name: '',
+                message: '',
+                reply_to: ''});
         })
         .catch((err) => {
             console.log('FAILED...', err);
