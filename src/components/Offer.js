@@ -4,6 +4,7 @@ import {Card, Button, Row, Col, Container} from "react-bootstrap";
 
 const Offer = () => {
     const [cheese, setCheese] = useState([]);
+
     useEffect(() => {
         fetch('http://localhost:3000/cheese')
         .then(r => r.json())
@@ -12,7 +13,7 @@ const Offer = () => {
 
     return (
         <section id="offer">
-            <h1 className="my-4 logo">Oferta</h1>
+            <h1 className="logo">Oferta</h1>
             <p>Wszystkie produkty są pakowane próżniowo.</p>
             <Container>
                 <Row>

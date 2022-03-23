@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Form, Button} from "react-bootstrap";
+import {Container, Form, Button, Modal} from "react-bootstrap";
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 
@@ -9,6 +9,9 @@ const Contact = () => {
         message: '',
         reply_to: '',
     });
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
     
     const onSubmit = (e) => {
         e.preventDefault();
@@ -20,6 +23,7 @@ const Contact = () => {
         )
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
+            setShow(true);
         })
         .catch((err) => {
             console.log('FAILED...', err);
@@ -28,6 +32,7 @@ const Contact = () => {
     
     const handleChange = (e) => {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
+
 };
 
     return (
@@ -62,8 +67,20 @@ const Contact = () => {
                     value={toSend.message} 
                     onChange={handleChange}></Form.Control>
                 </Form.Group>
-                <Button type="submit" className="mt-3">Wyślij</Button>
+                <Button type="submit" className="mt-3" onClick={handleClose}>Wyślij</Button>
             </Form>
+
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Dialog>
+                    <Modal.Header closeButton onClick={handleClose}/>
+                    <Modal.Body>
+                        <p>Dziękujemy! Twoja wiadomość została wysłana</p>
+                    </Modal.Body>
+                    <Modal.Footer>
+                        <Button onClick={handleClose}>Close</Button>
+                    </Modal.Footer>
+                </Modal.Dialog>
+            </Modal>
             <hr></hr>
         </Container>
     )
