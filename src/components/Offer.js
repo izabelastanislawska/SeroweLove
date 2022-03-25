@@ -5,27 +5,16 @@ import {Card, Button, Row, Col, Container} from "react-bootstrap";
 const Offer = () => {
     const [cheese, setCheese] = useState([]);
 
-    // useEffect(() => {
-    //     fetch('http://localhost:3000/cheese')
-    //     .then(r => r.json())
-    //     .then( data => setCheese(data))  
-    // }, []);
-
-   
-    let req = new XMLHttpRequest();
-
     useEffect(() => {
-        req.onreadystatechange = () => {
-            if (req.readyState === XMLHttpRequest.DONE) {
-                setCheese(JSON.parse(req.responseText).cheese)
+        fetch("https://api.jsonbin.io/b/623a08b87caf5d67836f721b", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json",
+                "secret-key": "$2b$10$wvxnUzoxHSmu1ny6aAq3eu95MxfmDqNpqYJJ/kNz1zHdrwJ0rFSOa"
             }
-        };
+        }).then(r => r.json())
+        .then(data => setCheese(data.cheese))
     }, []);
-
-    req.open("GET", "https://api.jsonbin.io/b/623a08b87caf5d67836f721b", true);
-    req.setRequestHeader("secret-key", "$2b$10$wvxnUzoxHSmu1ny6aAq3eu95MxfmDqNpqYJJ/kNz1zHdrwJ0rFSOa");
-    req.send();
-
 
     return (
         <section id="offer">
