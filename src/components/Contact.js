@@ -10,8 +10,10 @@ const Contact = () => {
         reply_to: '',
     });
     const [show, setShow] = useState(false);
+    const [showError, setShowError] = useState(false);
 
     const handleClose = () => setShow(false);
+    const handleCloseError = () => setShowError(false);
     
     const onSubmit = (e) => {
         e.preventDefault();
@@ -31,12 +33,12 @@ const Contact = () => {
         })
         .catch((err) => {
             console.log('FAILED...', err);
+            setShowError(true);
         });
     };
     
     const handleChange = (e) => {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
-
 };
 
     return (
@@ -82,6 +84,18 @@ const Contact = () => {
                     </Modal.Body>
                     <Modal.Footer>
                         <Button onClick={handleClose}>Close</Button>
+                    </Modal.Footer>
+                </Modal.Dialog>
+            </Modal>
+
+            <Modal show={showError} onHide={handleCloseError}>
+                <Modal.Dialog>
+                    <Modal.Header closeButton onClick={handleCloseError}/>
+                    <Modal.Body>
+                        <p>Nie udało się wysłać wiadomości. Spróbuj ponownie później.</p>
+                    </Modal.Body>
+                    <Modal.Footer>
+                        <Button onClick={handleCloseError}>Close</Button>
                     </Modal.Footer>
                 </Modal.Dialog>
             </Modal>
